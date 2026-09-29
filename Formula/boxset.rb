@@ -4,11 +4,11 @@ class Boxset < Formula
   license any_of: ["MIT", "Apache-2.0"]
 
   if Hardware::CPU.arm?
-    url "https://github.com/edgfoo/boxset/releases/download/v0.2.0/boxset-v0.2.0-aarch64-apple-darwin.tar.gz"
-    sha256 "f41ca192396e17652ab01ad9ff54680a71e6e81dc4c50b126921bd270a274262"
+    url "https://github.com/edgfoo/boxset/releases/download/v0.3.0/boxset-v0.3.0-aarch64-apple-darwin.tar.gz"
+    sha256 "ed82784f50e5d28f6fea40ae95ff4ecad2628090a86393ff8842108ae1066852"
   else
-    url "https://github.com/edgfoo/boxset/releases/download/v0.2.0/boxset-v0.2.0-x86_64-apple-darwin.tar.gz"
-    sha256 "56a08c7985d5780b823a245a7b783ad5c86a0234c298f9fd6b9a4665a259688d"
+    url "https://github.com/edgfoo/boxset/releases/download/v0.3.0/boxset-v0.3.0-x86_64-apple-darwin.tar.gz"
+    sha256 "7c21dae96061a8a99f3fa5ab55c2db61137e1556dcc8e3f1931c5e388ae6b49b"
   end
 
   # boxset needs ffmpeg >= 7.0, enforced at runtime against MIN_FFMPEG_VERSION
